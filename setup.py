@@ -18,7 +18,7 @@ def get_version(package):
 version = get_version("mkmsdk")
 
 
-LONG_DESCRIPTION = open("README.rst").read()
+LONG_DESCRIPTION = open("README.md").read()
 
 
 if sys.argv[-1] == "publish":
