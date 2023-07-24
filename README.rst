@@ -23,7 +23,7 @@ Feel free to contribute! Submit `a PR following the guidelines <https://mkm-sdk.
 Requirements
 ============
 
-* Python 3.4, 3.5, 3.6, 3.7
+* Python 3.8, 3.9, 3.10, 3.11
 * `Requests <http://docs.python-requests.org/>`_
 * `Requests_OAuthlib <https://github.com/requests/requests-oauthlib/>`_
 
