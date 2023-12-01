@@ -522,6 +522,11 @@ _API_MAP = {
                     "method": "put",
                     "description": "Decrease articles' quantities in authenticated user's stock",
                 },
+                "get_product_stock": {
+                    "url": "/stock/products/{product}",
+                    "method": "get",
+                    "description": "Returns all articles in the authenticated user's stock for a specified product",
+                },
             },
             "wants_list": {
                 "get_all_wants_list": {
