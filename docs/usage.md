@@ -105,7 +105,7 @@ Some requests have also custom parameters that must be passed as argument to sen
 
     mkm.account_management.vacation(params={"onVacation": "false"})
 
-This call will be formatted as such `https://api.cardmarket.com/ws/v2.0/account/vacation?onVacation=false`.
+This call will be formatted as such `https://apiv2.cardmarket.com/ws/v2.0/account/vacation?onVacation=false`.
 
 To request the export of Article entities from a specific user specified by its ID:
 
@@ -120,5 +120,5 @@ To get details for a requested export of Article entities from a specific user s
 The download `url` will be available if `r.json()['userOffersRequests']['status']` is `finished`:
 
         r.json()['userOffersRequests']['url']
-    
+
 [1]: http://docs.python-requests.org/en/latest/api/?highlight=response#requests.Response

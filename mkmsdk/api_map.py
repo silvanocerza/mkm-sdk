@@ -255,7 +255,7 @@ _API_MAP = {
         },
     },
     "2.0": {
-        "api_root": "https://api.cardmarket.com/ws/v2.0/output.json",
+        "api_root": "https://apiv2.cardmarket.com/ws/v2.0/output.json",
         "api_sandbox_root": "https://sandbox.cardmarket.com/ws/v2.0/output.json",
         "api": {
             "account_management": {
